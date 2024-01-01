@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body background="img/form background.jpg">
+    <div class="container my-5 form">
+      <header>Form</header>
+      <form action="" class="d-grid gap-3 col-6 mx-auto py-4">
+        <div class="input-box">
+          <label for="name">Full Name</label>
+
+          <input type="text" placeholder="Enter full name" required />
+        </div>
+
+        <div class="input-box">
+          <label for="iphonename">IPhone Name</label>
+
+          <input type="telephone" placeholder="IPhone ..." required />
+        </div>
+        <div class="input-box">
+          <label for="iphonemodelnumber">IPhone Model Number</label>
+          <input
+            type="text"
+            placeholder="Enter IPhone model"
+            name="iphonemodelnumber"
+            required
+          />
+        </div>
+        <div class="input-box">
+          <label for="address"
+            >Address
+            <textarea
+              rows="2"
+              placeholder="City, House number and street number"
+            ></textarea>
+          </label>
+          <br />
+        </div>
+        <div class="input-box installmentplan">
+          <select id="installmentplan" name="installmentplan">
+            <option value="select">Select Installment Plan</option>
+            <option value="javascript">6 months</option>
+            <option value="php">12 months</option>
+            <option value="java">18 months</option>
+          </select>
+        </div>
+
+        <div class="check-box">
+          <label for="paymentmethod"
+            ><input type="checkbox" required /> &nbsp;Cash on Delivery</label
+          >
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+     
+          <button class="btn btn-primary" type="submit">Submit</button></a
+        >
+      </div>
+       
+      </form>
+    </div>
+  </body>
+</html>

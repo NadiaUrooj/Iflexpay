@@ -1,0 +1,61 @@
+/* index.html style */
+footer {
+  text-align: center;
+  background-color: #f8f9fa;
+}
+.card {
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+  transform: all 0.3s;
+}
+.card:hover {
+  /* transform: scale(1.05); */
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+/* form style */
+
+.form {
+  position: relative;
+  max-width: 500px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(170, 207, 241, 0.829);
+  font-family: "Times New Roman", Times, serif;
+  opacity: 80%;
+  color: #000027;
+}
+.container header {
+  font-size: 1.6rem;
+
+  font-weight: 700;
+  text-align: center;
+}
+.form .input-box {
+  width: 100%;
+  margin-top: 10px;
+}
+.input-box label {
+  color: black;
+}
+.form :where(.input-box input, .select-box) {
+  position: relative;
+  height: 35px;
+  width: 100%;
+  outline: none;
+  margin-top: 5px;
+  border: 1px solid #000027;
+  color: #000027;
+  border-radius: 6px;
+  padding: 0 15px;
+  background: #f8f9fa;
+}
+.input-box .input:focus {
+  box-shadow: 0 1px rgba(0, 0, 0, 0.1);
+}
+#addnewform {
+  opacity: 80%;
+
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(170, 207, 241, 0.829);
+}
